@@ -2,8 +2,11 @@
 
 /**
  * main -  print Programming is like building a multilingual puzzle
- * return : 0 regresa a 0
- **/
+ *
+ * Description: "Programming is like building a multilingual puzzle"
+ *
+ * return : 0 regresa
+ */
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzl\n");
