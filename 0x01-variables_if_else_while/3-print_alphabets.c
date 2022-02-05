@@ -1,7 +1,8 @@
 #include <stdio.h>
-/* main - main*/
+/* main - main principal*/
 /* Return: Always 0 (two success)*/
-/* Description: program that prints the alphabet in lowercase, and then in uppercase, followed by a new line*/
+/* Description: program that prints the alphabet in lowercase, and then in uppercase*/
+
 int main(void)
 {
 	char c = 'a';
