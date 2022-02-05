@@ -1,7 +1,8 @@
 #include <stdio.h>
 /* main - main principal*/
 /* Return: Always 0 (two success)*/
-/* Description: program that prints the alphabet in lowercase, and then in uppercase*/
+/* Description: program that prints the alphabet in lowercase, 
+and uppercase*/
 
 int main(void)
 {
