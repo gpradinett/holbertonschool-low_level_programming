@@ -2,11 +2,11 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - random number negative and positive random number.
+ * main - random number negative and positive random number
  *
  * Return: Always 0 (two success)
  *
- * Description: negative and positive random number.
+ * Description: negative and positive random number
  */
 int main(void)
 {
