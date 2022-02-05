@@ -2,14 +2,11 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - print the last digit of the number stored in the variable n
- *
+ * main - random number negative and positive random number.
  *
  * Return: Always 0 (two success)
  *
- * Description: This program will assign a random number to
- * the variable n each time it is executed, print the last
- * digit of the number stored in the variable n.
+ * Description: negative and positive random number.
  */
 int main(void)
 {
