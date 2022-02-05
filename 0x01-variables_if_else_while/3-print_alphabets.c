@@ -1,8 +1,11 @@
 #include <stdio.h>
-/* main - main principal */
-/* Return: Always 0 (two success) */
-/* Description: program that prints the alphabet in lowercase, 
-and uppercase */
+/**
+ * main - random number negative and positive random number
+ *
+ * Return: Always 0 (two success)
+ *
+ * Description: negative and positive random number
+ */
 
 int main(void)
 {
