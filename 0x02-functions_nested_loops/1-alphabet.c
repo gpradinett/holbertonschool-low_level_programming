@@ -1,21 +1,21 @@
 #include "main.h"
 /**
- * main - random number negative and positive random number.
- * main - funtion "_putchar"
- * Return: Always 0 (two success)
+ * print_alphabet - print all alphabet
  *
- * @c: char character
+ * char; charaicter
+ * Return: return a char
  */
 
 void print_alphabet(void)
 {
 	char ch;
- 	ch ='a';
-  
-  while(ch <= 'z')
-  {
-  _putchar(ch);
-    ch++;
-  }
+
+	ch = 'a';
+
+	while (ch <= 'z')
+	{
+	_putchar(ch);
+	ch++;
+	}
 	_putchar('\n');
 }
