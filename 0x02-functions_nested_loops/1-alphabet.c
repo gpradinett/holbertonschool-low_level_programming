@@ -9,14 +9,14 @@
 
 int _putchar(char c);
 
-int main(void)
+void print_alphabet(void);
 {
-	char ch;
-  ch ='a';
+	char c;
+  c ='a';
   
-  while(ch <= 'z')
+  while(c <= 'z')
   {
-  _putchar(ch);
+  _putchar(c);
     c++;
   }
 	_putchar('\n');
