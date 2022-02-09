@@ -5,21 +5,20 @@
  *
  * Description: negative and positive random number
  */
+int _putchar(char c);
 
 void print_alphabet_x10(void)
 {
-  char ch;
-  int i;
-  
-  i = 0;
-  
+  char c;
+  int i = 0;
+      
     while (i < 10)
     {
         ch = 'a';
-        while (ch <= 'z')
+        while (c <= 'z')
        {
-       _putchar(ch);
-         ch++;
+       _putchar(c);
+         c++;
         }
 	_putchar('\n');
 	i++;	
