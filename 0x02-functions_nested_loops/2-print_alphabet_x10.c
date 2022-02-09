@@ -1,4 +1,4 @@
-#include <main.h>
+
 /**
  * main - random number negative and positive random number
  *
