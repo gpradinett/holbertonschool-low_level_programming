@@ -4,7 +4,7 @@
  * main - funtion "_putchar"
  * Return: Always 0 (two success)
  *
- * c: char character
+ * @c: char character
  */
 
 int _putchar(char c);
