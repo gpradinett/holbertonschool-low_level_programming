@@ -7,17 +7,15 @@
  * @c: char character
  */
 
-int _putchar(char c);
-
 void print_alphabet(void);
 {
-	char c;
-  c ='a';
+	char ch;
+ 	ch ='a';
   
-  while(c <= 'z')
+  while(ch <= 'z')
   {
-  _putchar(c);
-    c++;
+  _putchar(ch);
+    ch++;
   }
 	_putchar('\n');
 	return (0);
