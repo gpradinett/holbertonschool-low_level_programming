@@ -1,28 +1,27 @@
 #include "main.h"
 /**
- * main - random number negative and positive random number
+ * print_alphabet_x10 - print lowecase
  *
- * Return: Always 0 (two success)
+ * Return: Always 0
  *
- * Description: negative and positive random number
  */
 
 void print_alphabet_x10(void)
 {
-  char c;
-  int i;	
-   i = 0;
-      
-    while (i < 10)
-    {
-        c = 'a';
-        while (c <= 'z')
-       {
-       _putchar(c);
-         c++;
-        }
-	_putchar('\n');
-	i++;	
-    }
-	
+	char c;
+	int i;
+
+	i = 0;
+
+	while (i < 10)
+	{
+		c = 'a';
+	while (c <= 'z')
+	{
+		_putchar(c);
+		c++;
+	}
+		_putchar('\n');
+		i++;
+	}
 }
