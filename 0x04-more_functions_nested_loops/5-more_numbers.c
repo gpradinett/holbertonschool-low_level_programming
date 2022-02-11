@@ -6,8 +6,8 @@
  */
 void more_numbers(void)
 {
-	int i,
-	char counter;
+	char i,
+	int counter;
 
 	for (counter = 0; counter < 10; counter++)
 	{
