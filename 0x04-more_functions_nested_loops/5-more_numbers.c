@@ -7,9 +7,9 @@
 void more_numbers(void)
 {
 	char i;
-	int counter;
+	int c;
 
-	for (counter = 0; counter < 10; counter++)
+	for (c = 0; c < 10; c++)
 	{
 		for (i = 0; i <= 14; i++)
 		{
