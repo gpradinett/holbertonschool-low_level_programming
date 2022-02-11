@@ -1,8 +1,15 @@
 #include "main.h"
 /**
- * main - random number negative and positive random number.
- * main - funtion "_putchar"
- * Return: Always 0 (two success)
- *
- * @c: char character
+ * main - tests function that prints if integer is positive or negative
+ * Return: 0
  */
+
+int main(void)
+{
+	int i;
+
+	i = 0;
+	positive_or_negative(i);
+
+	return (0);
+}
