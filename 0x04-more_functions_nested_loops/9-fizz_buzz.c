@@ -1,9 +1,13 @@
-#include "main.h"
+i#include "main.h"
 #include <stdio.h>
 
 /**
- * print_diagonal - print caracter \ n times
- * @n: number caracter to draw
+ * main - prints the numbers fro 1 to 100, followed by a new line.
+ * but for multiples of three print Fizz instead of the number
+ * and for the multiples of five print Buzz.
+ * fot numbers which are multiples of both three and five print FizzBuzz.
+ *
+ * Return: 0
  */
 
 int main(void)
@@ -16,27 +20,25 @@ int main(void)
 		{
 			if ((n % 3 == 0) && !(n % 5 == 0))
 			{
-			printf ("Fizz ");
+				printf("Fizz ");
 			}
-			else if ((n % 5 == 0) &&  !(n % 3 == 0 ))
+			else if ((n % 5 == 0) && !(n % 3 == 0))
 			{
-			printf ("Buzz ");
+				printf("Buzz ");
 			}
 			else if ((n % 3 == 0) && (n % 5 == 0))
 			{
-			printf ("Fizz Buzz");
+				printf("Fizz Buzz");
 			}
-			else 
+			else
 			{
-			printf ("%d", n);
+				printf("%d", n);
 			}
-		
 			if (n == 100)
 			{
-			printf ("Buzz \n");
+				printf("Buzz \n");
 			}
-		}	
-		
+		}
 	}
 	return (0);
 }
