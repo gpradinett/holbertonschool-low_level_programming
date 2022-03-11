@@ -1,11 +1,10 @@
 #include "variadic_functions.h"
-
-/*
- * Return: return the Sum or 0
- * print_numbers - prints numbers given as parameters
- * @separator: string to be printed between numbers
- * @n: number of integers passed to the function
- */
+/**
+* print_numbers - function that prints numbers followed by a new line
+* @separator: pointer
+* @n: number of integers passed to the function
+* Return: return the Sum or 0
+*/
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
 		unsigned int i;
