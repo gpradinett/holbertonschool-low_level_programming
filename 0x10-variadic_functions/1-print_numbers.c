@@ -1,4 +1,4 @@
-nclude "variadic_functions.h"
+#include "variadic_functions.h"
 
 /*
  * Return: return the Sum or 0
