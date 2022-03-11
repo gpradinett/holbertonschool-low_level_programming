@@ -1,6 +1,7 @@
 nclude "variadic_functions.h"
 
-/**
+/*
+ * Return: return the Sum or 0
  * print_numbers - prints numbers given as parameters
  * @separator: string to be printed between numbers
  * @n: number of integers passed to the function
