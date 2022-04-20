@@ -1,8 +1,9 @@
-Learning Objectives
+Larning Objectives
 
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
 General
+
 Why C programming is awesome
 Who invented C
 Who are Dennis Ritchie, Brian Kernighan and Linus Torvalds
@@ -16,6 +17,7 @@ What is the default program name when compiling with gcc
 What is the official C coding style and how to check your code with betty-style
 How to find the right header to include in your source code when using a standard library function
 How does the main function influence the return value of the program
+
 Requirements
 C
 Allowed editors: vi, vim, emacs
