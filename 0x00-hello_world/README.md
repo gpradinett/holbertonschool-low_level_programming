@@ -99,6 +99,7 @@ You can now type `betty <filename>` to run the Betty linter!
 # Description of each file:
 
 | File | Description |
+| ------ | ------ |
 | 0-preprocessor | Bash script to run a C file through the preprocessor and save the output in the file "c".| 
 | 1-compiler | Bash script to compile a C file without linking. |
 | 2-assembler | Bash script to generate the assembly code of a C source code. |
