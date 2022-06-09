@@ -95,3 +95,17 @@ done
 - Move the `betty` file into `/bin/` directory or somewhere else in your `$PATH` with `sudo mv betty /bin/`
 
 You can now type `betty <filename>` to run the Betty linter!   
+
+# Description of each file:
+
+| File | Description |
+| 0-preprocessor | Bash script to run a C file through the preprocessor and save the output in the file "c".| 
+| 1-compiler | Bash script to compile a C file without linking. |
+| 2-assembler | Bash script to generate the assembly code of a C source code. |
+| 3-name | C program that prints a text using puts. |
+| 5-printf.c | 	C program that prints a text using printf. |
+| 6-size.c | C program that prints the size of various types on the computer is compiled. |
+| 100-intel | Bash script that generates the assembly code of a C code and save it in an output file. |
+| 101-quote.c | C program that prints using write system call. |
+
+ -[Fernando Gonzales P.](https://twitter.com/gpradinett) 
