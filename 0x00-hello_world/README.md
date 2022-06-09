@@ -109,4 +109,4 @@ You can now type `betty <filename>` to run the Betty linter!
 | 100-intel | Bash script that generates the assembly code of a C code and save it in an output file. |
 | 101-quote.c | C program that prints using write system call. |
 
- -[Fernando Gonzales P.](https://twitter.com/gpradinett) 
+ - [Fernando Gonzales P.](https://twitter.com/gpradinett) 
