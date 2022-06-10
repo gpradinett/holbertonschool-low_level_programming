@@ -1,5 +1,8 @@
-# Resources
+# Variables - if - else - while
+
+## Resources
 Read or watch:
+
 - [Everything you need to know to start with C.pdf](https://holbertonintranet.s3.amazonaws.com/uploads/misc/2021/1/42507f7938ddf9b8963bc903bac7d75f88ca8881.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOU5BHMTQX4%2F20220609%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220609T201640Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=57db42127d7a807e5fbbcede3b9f66c65c8c57b7df56e505b52fce4992616b22) (You do not have to learn everything in there yet, but make sure you read it entirely first and make sure you understand the slides: “comments”, “Data types | Integer types”, “Declaration”, “Characters”, “Arithmetic operators”, “Variables assignments”, “Comparisons”, “Logical operators”, “if, if…else”, “while loops”.)
 - [Keywords and identifiers](https://publications.gbdirect.co.uk//c_book/chapter2/keywords_and_identifiers.html)
 - [integers](https://publications.gbdirect.co.uk//c_book/chapter2/integral_types.html)
@@ -11,14 +14,14 @@ Read or watch:
 - [while loop in C](https://www.tutorialspoint.com/cprogramming/c_while_loop.htm)
 - [While loop](https://www.youtube.com/watch?v=Ju1LYO9pkaI&ab_channel=Simplified)
 
-# man or help:
+## man or help:
 - `ascii` (You do not need to learn about `scanf`, `getc`, `getchar`, `EOF`, `EXIT_SUCCESS`, `time`, `rand`, `srand`, `RAND_MAX`, `for` loops, `do...while` loops, functions.)
 
-# Learning Objectives
+## Learning Objectives
 
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
-# General
+## General
 - What are the arithmetic operators and how to use them
 - What are the logical operators (sometimes called boolean operators) and how to use them
 - What the the relational operators and how to use them
@@ -35,7 +38,7 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - What is the `ASCII` character set
 - What are the purpose of the `gcc` flags `-m32` and `-m64`
 
-# Requirements
+## Requirements
 - Allowed editors: `vi`, `vim`, `emacs`
 - All your files will be compiled on Ubuntu 20.04 LTS using `gcc`, using the options `-Wall -Werror -Wextra -pedantic -std=gnu89`
 - All your files should end with a new line
@@ -44,7 +47,7 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - You are not allowed to use `system`
 - Your code should use the `Betty` style. It will be checked using `betty-style.pl` and `betty-doc.pl`
 
-# Description of each file:
+## Description of each file:
 
 | File | Description |
 | ------ | ------ |
@@ -62,4 +65,4 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 | 101-print_comb4.c | Write a program that prints all possible different combinations of three digits.
 | 102-print_comb5.c | Write a program that prints all possible combinations of two two-digit numbers. | 
 
- - [Fernando Gonzales P.](https://twitter.com/gpradinett) 
+ - [Fernando J. Gonzales Pradinett.](https://twitter.com/gpradinett)
