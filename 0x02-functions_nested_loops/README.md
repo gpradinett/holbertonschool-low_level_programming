@@ -1,4 +1,6 @@
-# Resources
+# Functions - nested loops
+
+## Resources
 Read or watch:
 
 - [Nested while loops](https://www.youtube.com/watch?v=Z3iGeQ1gIss&ab_channel=ZackAnnaTutorials)
@@ -7,11 +9,11 @@ Read or watch:
 - [What is the purpose of a function prototype?](https://www.geeksforgeeks.org/what-is-the-purpose-of-a-function-prototype/)
 - [C - Header Files](https://www.tutorialspoint.com/cprogramming/c_header_files.htm) (stop before the “Once-Only Headers” paragraph)
 
-# Learning Objectives
+## Learning Objectives
 
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
-# General
+## General
 
 - What are nested loops and how to use them
 - What is a function and how do you use functions
@@ -21,7 +23,7 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - What are the `gcc` flags `-Wall -Werror -pedantic -Wextra -std=gnu89`
 - What are header files and how to to use them with `#include`
 
-# Requirements
+## Requirements
 
 - Allowed editors: `vi`, `vim`, `emacs`
 - All your files will be compiled on Ubuntu 20.04 LTS using `gcc`, using the options `-Wall -Werror -Wextra -pedantic -std=gnu89`
@@ -37,7 +39,7 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - The prototypes of all your functions and the prototype of the function `_putchar` should be included in your header file called `main.h`
 - Don’t forget to push your header file
 
-# Description of each file:
+## Description of each file:
 
 | File | Description |
 | ------ | ------ |
