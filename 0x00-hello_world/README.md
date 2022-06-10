@@ -1,9 +1,9 @@
 ![](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-low_level_programming/212/cisfun.jpg)
 ># Hello World
-```sh
-Resources
-```
-Read or watch:
+
+## Resources
+
+**Read or watch:**
 
 - [Everything you need to know to start with C.pdf](https://holbertonintranet.s3.amazonaws.com/uploads/misc/2021/1/d801279f75de6a982a55d752dfd3632909f720f0.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOU5BHMTQX4%2F20220609%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220609T022434Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=115fbc5822810277d14d7fd6d8737788c61e2897a3e9f6416333e7774a908fc7) (You do not have to learn everything in there yet, but make sure you read it entirely first)
 - [Dennis Ritchie](https://en.wikipedia.org/wiki/Dennis_Ritchie)
@@ -16,18 +16,18 @@ Read or watch:
 - [Hash-bang under the hood](https://twitter.com/unix_byte/status/1024147947393495040?s=21) (Look at only after you finish consuming the other resources)
 - [Linus Torvalds on C vs. C++](http://harmful.cat-v.org/software/c++/linus) (Look at only after you finish consuming the other resources)
 
-## man or help:
+**man or help:**
 
  - `gcc`
  - `printf (3)`
  - `puts`
  - `putchar`
 
-## Learning Objectives
+**Learning Objectives**
 
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
-## General
+**General**
 
 - Why C programming is awesome
 - Who invented C
@@ -43,8 +43,8 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - How to find the right header to include in your source code when using a standard library function
 - How does the `main` function influence the return value of the program
 
-## Requirements
-C
+**Requirements**
+**C**
 - Allowed editors: `vi`, `vim`, `emacs`
 - All your files will be compiled on Ubuntu 20.04 LTS using `gcc`, using the options `-Wall -Werror -Wextra -pedantic -std=gnu89`
 - All your files should end with a new line
@@ -54,16 +54,17 @@ C
 - You are not allowed to use `system`
 - Your code should use the `Betty` style. It will be checked using `betty-style.pl` and `betty-doc.pl`
 
-## Shell Scripts
+**Shell Scripts**
 
 - Allowed editors: `vi`, `vim`, `emacs`
 - All your scripts will be tested on Ubuntu 20.04 LTS
 - All your scripts should be exactly two lines long (`$ wc -l file` should print 2)
 - All your files should end with a new line
 - The first line of all your files should be exactly `#!/bin/bash`
-# More Info
+># More Info
 
-## Betty linter
+**Betty linter**
+
 To run the Betty linter just with command `betty <filename>`:
 
 - Go to the `Betty` repository
@@ -99,7 +100,7 @@ done
 
 You can now type `betty <filename>` to run the Betty linter!   
 
-## Description of each file:
+**Description of each file:**
 
 | File | Description |
 | ------ | ------ |
