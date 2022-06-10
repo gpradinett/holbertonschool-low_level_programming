@@ -1,9 +1,9 @@
 ![](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-low_level_programming/212/cisfun.jpg)
 ># Hello World
 
-## Resources
+# Resources
 
-**Read or watch:**
+## Read or watch:
 
 - [Everything you need to know to start with C.pdf](https://holbertonintranet.s3.amazonaws.com/uploads/misc/2021/1/d801279f75de6a982a55d752dfd3632909f720f0.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOU5BHMTQX4%2F20220609%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220609T022434Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=115fbc5822810277d14d7fd6d8737788c61e2897a3e9f6416333e7774a908fc7) (You do not have to learn everything in there yet, but make sure you read it entirely first)
 - [Dennis Ritchie](https://en.wikipedia.org/wiki/Dennis_Ritchie)
@@ -16,18 +16,18 @@
 - [Hash-bang under the hood](https://twitter.com/unix_byte/status/1024147947393495040?s=21) (Look at only after you finish consuming the other resources)
 - [Linus Torvalds on C vs. C++](http://harmful.cat-v.org/software/c++/linus) (Look at only after you finish consuming the other resources)
 
-**man or help:**
+## man or help:
 
  - _`gcc`_
  - _`printf (3)`_
  - _`puts`_
  - _`putchar`_
 
-**Learning Objectives**
+## Learning Objectives
 
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
-**General**
+## General
 
 - Why C programming is awesome
 - Who invented C
@@ -43,7 +43,7 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - How to find the right header to include in your source code when using a standard library function
 - How does the _`main`_ function influence the return value of the program
 
-**Requirements**
+## Requirements
 **C**
 - Allowed editors: _`vi`_, _`vim`_, _`emacs`_
 - All your files will be compiled on Ubuntu 20.04 LTS using _`gcc`_, using the options _`-Wall -Werror -Wextra -pedantic -std=gnu89`_
@@ -52,9 +52,9 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - A _`README.md`_ file, at the root of the folder of this project, containing a description of the project
 - There should be no errors and no warnings during compilation
 - You are not allowed to use _`system`_
-- Your code should use the _`Betty`_ style. It will be checked using _`betty-style.pl`_ and _`betty-doc.pl`_
+- Your code should use the _`Betty`_ style. It will be checked using [_`betty-style.pl`_](https://github.com/holbertonschool/Betty/blob/master/betty-style.pl) and [_`betty-doc.pl`_](https://github.com/holbertonschool/Betty/blob/master/betty-doc.pl)
 
-**Shell Scripts**
+## Shell Scripts
 
 - Allowed editors: _`vi`_, _`vim`_, _`emacs`_
 - All your scripts will be tested on Ubuntu 20.04 LTS
@@ -63,7 +63,7 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - The first line of all your files should be exactly _`#!/bin/bash`_
 # More Info
 
-**Betty linter**
+## Betty linter
 
 To run the Betty linter just with command _`betty <filename>`_:
 
@@ -100,9 +100,9 @@ done
 
 You can now type _`betty <filename>`_ to run the Betty linter!   
 
-**Description of each file:**
+## Description of each file:
 
-| File | Description |
+| **File** | **Description** |
 | ------ | ------ |
 | 0-preprocessor | Bash script to run a C file through the preprocessor and save the output in the file "c".| 
 | 1-compiler | Bash script to compile a C file without linking. |
