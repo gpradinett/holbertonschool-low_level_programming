@@ -18,10 +18,10 @@
 
 **man or help:**
 
- - `gcc`
- - `printf (3)`
- - `puts`
- - `putchar`
+ - _`gcc`_
+ - _`printf (3)`_
+ - _`puts`_
+ - _`putchar`_
 
 **Learning Objectives**
 
@@ -32,46 +32,46 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - Why C programming is awesome
 - Who invented C
 - Who are Dennis Ritchie, Brian Kernighan and Linus Torvalds
-- What happens when you type `gcc main.c`
+- What happens when you type _`gcc main.c`_
 - What is an entry point
-- What is `main`
-- How to print text using `printf`, `puts` and `putchar`
-- How to get the size of a specific type using the unary operator `sizeof`
-- How to compile using `gcc`
-- What is the default program name when compiling with `gcc`
-- What is the official C coding style and how to check your code with `betty-style`
+- What is _`main`_
+- How to print text using _`printf`_, _`puts`_ and _`putchar`_
+- How to get the size of a specific type using the unary operator _`sizeof`_
+- How to compile using _`gcc`_
+- What is the default program name when compiling with _`gcc`_
+- What is the official C coding style and how to check your code with _`betty-style`_
 - How to find the right header to include in your source code when using a standard library function
-- How does the `main` function influence the return value of the program
+- How does the _`main`_ function influence the return value of the program
 
 **Requirements**
 **C**
-- Allowed editors: `vi`, `vim`, `emacs`
-- All your files will be compiled on Ubuntu 20.04 LTS using `gcc`, using the options `-Wall -Werror -Wextra -pedantic -std=gnu89`
+- Allowed editors: _`vi`_, _`vim`_, _`emacs`_
+- All your files will be compiled on Ubuntu 20.04 LTS using _`gcc`_, using the options _`-Wall -Werror -Wextra -pedantic -std=gnu89`_
 - All your files should end with a new line
-- A `README.md` file at the root of the repo, containing a description of the repository
-- A `README.md` file, at the root of the folder of this project, containing a description of the project
+- A _`README.md`_ file at the root of the repo, containing a description of the repository
+- A _`README.md`_ file, at the root of the folder of this project, containing a description of the project
 - There should be no errors and no warnings during compilation
-- You are not allowed to use `system`
-- Your code should use the `Betty` style. It will be checked using `betty-style.pl` and `betty-doc.pl`
+- You are not allowed to use _`system`_
+- Your code should use the _`Betty`_ style. It will be checked using _`betty-style.pl`_ and _`betty-doc.pl`_
 
 **Shell Scripts**
 
-- Allowed editors: `vi`, `vim`, `emacs`
+- Allowed editors: _`vi`_, _`vim`_, _`emacs`_
 - All your scripts will be tested on Ubuntu 20.04 LTS
-- All your scripts should be exactly two lines long (`$ wc -l file` should print 2)
+- All your scripts should be exactly two lines long (_`$ wc -l file`_ should print 2)
 - All your files should end with a new line
-- The first line of all your files should be exactly `#!/bin/bash`
-># More Info
+- The first line of all your files should be exactly _`#!/bin/bash`_
+# More Info
 
 **Betty linter**
 
-To run the Betty linter just with command `betty <filename>`:
+To run the Betty linter just with command _`betty <filename>`_:
 
-- Go to the `Betty` repository
-- Clone the `repo` to your local machine
-- `cd` into the Betty directory
-- Install the linter with `sudo ./install.sh`
-- `emacs` or `vi` a new file called `betty`, and copy the script below:
+- Go to the _`Betty`_ repository
+- Clone the _`repo`_ to your local machine
+- _`cd`_ into the Betty directory
+- Install the linter with _`sudo ./install.sh`_
+- _`emacs`_ or _`vi`_ a new file called _`betty`_, and copy the script below:
 
 ```
 #!/bin/bash
@@ -95,10 +95,10 @@ for argument in "$@" ; do
     ${BIN_PATH}/${BETTY_DOC} "$argument"
 done
 ```
-- Once saved, exit file and change permissions to apply to all users with `chmod a+x betty`
-- Move the `betty` file into `/bin/` directory or somewhere else in your `$PATH` with `sudo mv betty /bin/`
+- Once saved, exit file and change permissions to apply to all users with _`chmod a+x betty`_
+- Move the _`betty`_ file into _`/bin/`_ directory or somewhere else in your _`$PATH`_ with _`sudo mv betty /bin/`_
 
-You can now type `betty <filename>` to run the Betty linter!   
+You can now type _`betty <filename>`_ to run the Betty linter!   
 
 **Description of each file:**
 
@@ -108,10 +108,10 @@ You can now type `betty <filename>` to run the Betty linter!
 | 1-compiler | Bash script to compile a C file without linking. |
 | 2-assembler | Bash script to generate the assembly code of a C source code. |
 | 3-name | C program that prints a text using puts. |
-| 4-puts.c | Write a C program that prints exactly `"Programming is like building a multilingual puzzle`, followed by a new line. |
+| 4-puts.c | Write a C program that prints exactly _`"Programming is like building a multilingual puzzle`_, followed by a new line. |
 | 5-printf.c | 	C program that prints a text using printf. |
 | 6-size.c | C program that prints the size of various types on the computer is compiled. |
 | 100-intel | Bash script that generates the assembly code of a C code and save it in an output file. |
 | 101-quote.c | C program that prints using write system call. |
 
- >- [Fernando Gonzales P.](https://twitter.com/gpradinett) 
+ - [_Fernando J. Gonzales Pradinett._](https://twitter.com/gpradinett) 
