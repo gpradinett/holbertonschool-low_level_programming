@@ -27,10 +27,9 @@ Debugging is the process of finding and fixing errors in software that prevents 
 
 | **File** | **Description** |
 | ------ | ------ |
-| 0-main.c | In most projects, we often give you only one main file to test with. For example, this main file is a test for a _`postitive_or_negative`_() function similar to the one you worked with in _`an earlier C project`_: |
-| 1-main.c | Copy this main file. Comment out (don’t delete it!) the part of the code that is causing the output to go into an infinite loop. |
-| 2-largest_number.c | This program prints the largest of three integers. |
-| 3-print_remaining_days.c | This program converts a date to the day of year and determines how many days are left in the year, taking leap year into consideration. |
-| 3-print_remaining_days.c | This program converts a date to the day of year and determines how many days are left in the year, taking leap year into consideration. |
+| [0-main.c](https://github.com/gpradinett/holbertonschool-low_level_programming/blob/main/0x03-debugging/0-main.c) | In most projects, we often give you only one main file to test with. For example, this main file is a test for a _`postitive_or_negative`_() function similar to the one you worked with in _`an earlier C project`_: |
+| [1-main.c](https://github.com/gpradinett/holbertonschool-low_level_programming/blob/main/0x03-debugging/1-main.c) | Copy this main file. Comment out (don’t delete it!) the part of the code that is causing the output to go into an infinite loop. |
+| [2-largest_number.c](https://github.com/gpradinett/holbertonschool-low_level_programming/blob/main/0x03-debugging/2-largest_number.c) | This program prints the largest of three integers. |
+| 3[-print_remaining_days.c](https://github.com/gpradinett/holbertonschool-low_level_programming/blob/main/0x03-debugging/3-print_remaining_days.c) | This program converts a date to the day of year and determines how many days are left in the year, taking leap year into consideration. |
 
  - [_Fernando J. Gonzales Pradinett._](https://twitter.com/gpradinett) 
