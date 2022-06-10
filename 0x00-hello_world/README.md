@@ -1,7 +1,8 @@
 ![](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-low_level_programming/212/cisfun.jpg)
-# Hello World
-
-## Resources
+># Hello World
+```sh
+Resources
+```
 Read or watch:
 
 - [Everything you need to know to start with C.pdf](https://holbertonintranet.s3.amazonaws.com/uploads/misc/2021/1/d801279f75de6a982a55d752dfd3632909f720f0.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOU5BHMTQX4%2F20220609%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220609T022434Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=115fbc5822810277d14d7fd6d8737788c61e2897a3e9f6416333e7774a908fc7) (You do not have to learn everything in there yet, but make sure you read it entirely first)
@@ -112,4 +113,4 @@ You can now type `betty <filename>` to run the Betty linter!
 | 100-intel | Bash script that generates the assembly code of a C code and save it in an output file. |
 | 101-quote.c | C program that prints using write system call. |
 
- - [Fernando Gonzales P.](https://twitter.com/gpradinett) 
+ >- [Fernando Gonzales P.](https://twitter.com/gpradinett) 
