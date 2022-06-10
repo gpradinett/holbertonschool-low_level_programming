@@ -1,7 +1,5 @@
 ># Debugging
 
-![](https://holbertonintranet.s3.amazonaws.com/uploads/medias/2019/5/af682f2cbb6d73fd4e42.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOU5BHMTQX4%2F20220610%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220610T184622Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=5b1fbc4e8d5e2ae4a3da2b67b520d1dca8cb13613f60920d640761211bf7724d)
-
 ## Resources
 Read or watch:
 
@@ -9,6 +7,8 @@ Read or watch:
 - [Rubber Duck Debugging](https://www.thoughtfulcode.com/rubber-duck-debugging-psychology/)
 
 Debugging is the process of finding and fixing errors in software that prevents it from running correctly. As you become a more advanced programmer and an industry engineer, you will learn how to use debugging tools such as _`gdb`_ or built-in tools that IDEs have. However, it’s important to understand the concepts and processes of debugging manually.
+
+![](https://www.thoughtfulcode.com/wp-content/uploads/2019/01/rubber-duck-debugging-and-psychology-sunglassed-rubber-duck-1272x848.jpg)
 
 ## General
 
