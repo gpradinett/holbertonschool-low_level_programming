@@ -2,7 +2,7 @@
 
 ![](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-low_level_programming/219/a88.jpg)
 
-# Resources
+## Resources
 
 Read or watch:
 
@@ -12,7 +12,7 @@ Read or watch:
 - [C Programming Tutorial 85, Recursion pt.1](https://www.youtube.com/watch?v=XGxbXMP6k8k&ab_channel=iTzAdam5X)
 - [C Programming Tutorial 86, Recursion pt.2](https://www.youtube.com/watch?v=7XiIS6HobNs&ab_channel=iTzAdam5X)
 
-# General
+## General
 
 - What is recursion
 - How to implement recursion
