@@ -61,7 +61,7 @@ typedef struct list_s
 } list_t;
 ```
 
->## [0-print_list.c]()
+>## ❤️[0-print_list.c](https://github.com/gpradinett/holbertonschool-low_level_programming/blob/main/0x12-singly_linked_lists/0-print_list.c)
 
 ```
 Print list
@@ -127,7 +127,7 @@ gpradinett@ubuntu:~/0x12. Singly linked lists$ ./a
 -> 2 elements
 gpradinett@ubuntu:~/0x12. Singly linked lists$ 
 ```
->## [1-list_len.c]()
+>## ❤️[1-list_len.c](https://github.com/gpradinett/holbertonschool-low_level_programming/blob/main/0x12-singly_linked_lists/1-list_len.c)
 ```
 List length
 ```
@@ -177,7 +177,7 @@ gpradinett@ubuntu:~/0x12. Singly linked lists$ ./b
 gpradinett@ubuntu:~/0x12. Singly linked lists$ 
 ```
 
->## [2-add_node.c]()
+>## ❤️[2-add_node.c](https://github.com/gpradinett/holbertonschool-low_level_programming/blob/main/0x12-singly_linked_lists/2-add_node.c)
 ```
 Add node
 ```
@@ -267,7 +267,7 @@ gpradinett@ubuntu:~/0x12. Singly linked lists$ ./c
 gpradinett@ubuntu:~/0x12. Singly linked lists$ 
 ```
 
->## [3-add_node_end.c]()
+>## ❤️[3-add_node_end.c](https://github.com/gpradinett/holbertonschool-low_level_programming/blob/main/0x12-singly_linked_lists/3-add_node_end.c)
 ```
 Add node at the end
 ```
@@ -358,7 +358,7 @@ gpradinett@ubuntu:~/0x12. Singly linked lists$ ./d
 gpradinett@ubuntu:~/0x12. Singly linked lists$ 
 ```
 
->## [4-free_list.c]()
+>## ❤️[4-free_list.c](https://github.com/gpradinett/holbertonschool-low_level_programming/blob/main/0x12-singly_linked_lists/4-free_list.c)
 ```
 Free list
 ```
@@ -416,7 +416,7 @@ gpradinett@ubuntu:~/0x12. Singly linked lists$ valgrind ./e
 gpradinett@ubuntu:~/0x12. Singly linked lists$ 
 ```
 
->## [100-first.c]()
+>## ❤️[100-first.c]()
 ```
 The Hare and the Tortoise
 ```
