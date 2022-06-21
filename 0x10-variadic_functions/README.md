@@ -40,8 +40,8 @@ man or help:
 Beauty is variable, ugliness is constant
 ```
 Write a function that returns the sum of all its parameters.
-- Prototype: `int sum_them_all(const unsigned int n, ...);`
-- If `n == 0`, return `0`
+- Prototype: **`int sum_them_all(const unsigned int n, ...);`**
+- If **`n == 0`**, return **`0`**
 ```
 gpradinett@ubuntu:~/0x0f. variadic functions$ cat 0-main.c
 #include <stdio.h>
@@ -75,11 +75,11 @@ To be is to be the value of a variable
 ```
 Write a function that prints numbers, followed by a new line.
 
-- Prototype: `void print_numbers(const char *separator, const unsigned int n, ...);`
-- where `separator` is the string to be printed between numbers
-- and `n` is the number of integers passed to the function
+- Prototype: **`void print_numbers(const char *separator, const unsigned int n, ...);`**
+- where **`separator`** is the string to be printed between numbers
+- and **`n`** is the number of integers passed to the function
 - You are allowed to use `printf`
-- If `separator` is `NULL`, don’t print it
+- If **`separator`** is **`NULL`**, don’t print it
 - Print a new line at the end of your function
 ```
 gpradinett@ubuntu:~/0x0f. variadic functions$ cat 1-main.c
@@ -105,12 +105,12 @@ gpradinett@ubuntu:~/0x0f. variadic functions$
 ```
 One woman's constant is another woman's variable
 ```
-- Prototype: `void print_strings(const char *separator, const unsigned int n, ...);`
-- where `separator` is the string to be printed between the strings
+- Prototype: **`void print_strings(const char *separator, const unsigned int n, ...);`**
+- where **`separator`** is the string to be printed between the strings
 - and `n` is the number of strings passed to the function
-- You are allowed to use `printf`
+- You are allowed to use **`printf`**
 - If separator is NULL, don’t print it
-- If one of the string is NULL, print `(nil)` instead
+- If one of the string is NULL, print **`(nil)`** instead
 - Print a new line at the end of your function
 ```
 gpradinett@ubuntu:~/0x0f. Variadic functions$ cat 2-main.c
@@ -135,20 +135,20 @@ gpradinett@ubuntu:~/0x0f. Variadic functions$
 ```
 Write a function that prints anything.
 ```
-- Prototype: `void print_all(const char * const format, ...);`
-- where `format` is a list of types of arguments passed to the function
-    - `c`: `char`
-    - `i`: `integer`
-    - `f`: `float` 
-    - `s`: `char *` (if the string is NULL, print `(nil)` instead
+- Prototype: **`void print_all(const char * const format, ...);`**
+- where **`format`** is a list of types of arguments passed to the function
+    - **`c`**: **`char`**
+    - **`i`**: **`integer`**
+    - **`f`**: **`float`** 
+    - **`s`**: **`char *`** (if the string is NULL, print **`(nil)`** instead
     - any other char should be ignored
     - see example
-- You are not allowed to use `for`, `goto`, ternary operator, `else`, `do ... while`
+- You are not allowed to use **`for`**, **`goto`**, ternary operator, **`else`**, **`do ... while`**
 - You can use a maximum of
-    - 2 `while` loops
-    - 2 `if`
-- You can declare a maximum of `9` variables
-- You are allowed to use `printf`
+    - 2 **`while`** loops
+    - 2 **`if`**
+- You can declare a maximum of **`9`** variables
+- You are allowed to use **`printf`**
 - Print a new line at the end of your function
 ```
 gpradinett@ubuntu:~/0x0f. Variadic functions$ cat 3-main.c
@@ -174,9 +174,9 @@ gpradinett@ubuntu:~/0x0f. Variadic functions$
 ```
 Real programmers can write assembly code in any language
 ```
-Write a 64-bit program in assembly that prints `Hello, World`, followed by a new line.
-- You are only allowed to use the system call `write` (use `int` or `syscall`, not a call)
-- Your program will be compiled using `nasm` and `gcc` (as follows)
+Write a 64-bit program in assembly that prints **`Hello, World`**, followed by a new line.
+- You are only allowed to use the system call **`write`** (use **`int`** or **`syscall`**, not a call)
+- Your program will be compiled using **`nasm`** and **`gcc`** (as follows)
 ```
 gpradinett@ubuntu:~/0x0f. Variadic functions$ nasm -f elf64 100-hello_world.asm && gcc -no-pie -std=gnu89 100-hello_world.o -o hello
 gpradinett@ubuntu:~/0x0f. Variadic functions$ ./hello 
