@@ -35,7 +35,7 @@ man or help:
 - Don’t forget to push your header file
 - All your header files should be include guarded
 
->## [0-sum_them_all.c]()
+>## [0-sum_them_all.c](https://github.com/gpradinett/holbertonschool-low_level_programming/blob/main/0x10-variadic_functions/0-sum_them_all.c)
 ```
 Beauty is variable, ugliness is constant
 ```
@@ -69,7 +69,7 @@ gpradinett@ubuntu:~/0x0f. variadic functions$ ./a
 gpradinett@ubuntu:~/0x0f. variadic functions$ 
 ```
 
->## [1-print_numbers.c]()
+>## [1-print_numbers.c](https://github.com/gpradinett/holbertonschool-low_level_programming/blob/main/0x10-variadic_functions/1-print_numbers.c)
 ```
 To be is to be the value of a variable
 ```
@@ -101,7 +101,7 @@ gpradinett@ubuntu:~/0x0f. variadic functions$ ./b
 gpradinett@ubuntu:~/0x0f. variadic functions$ 
 ```
 
->## [2-print_strings.c]()
+>## [2-print_strings.c](https://github.com/gpradinett/holbertonschool-low_level_programming/blob/main/0x10-variadic_functions/2-print_strings.c)
 ```
 One woman's constant is another woman's variable
 ```
@@ -131,7 +131,7 @@ gpradinett@ubuntu:~/0x0f. Variadic functions$ ./c
 Jay, Django
 gpradinett@ubuntu:~/0x0f. Variadic functions$ 
 ```
->## [3-print_all.c]()
+>## [3-print_all.c](https://github.com/gpradinett/holbertonschool-low_level_programming/blob/main/0x10-variadic_functions/3-print_all.c)
 ```
 Write a function that prints anything.
 ```
