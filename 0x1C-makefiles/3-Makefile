@@ -1,0 +1,32 @@
+#make -f 3-Makefile 
+#nombre of the executable: "school" 
+#Reglas: 
+# -all: build your executable 
+# -clean: delete all temporary EMACS and VIM 
+# -oclean: delete the files.o 
+# -fclean: delete all temporary files, executable, and files 
+# -re: recompilation of source files
+
+CC = gcc
+SRC = main.c school.c
+OBJ = $(SRC:.c=.o)
+NAME = school
+RM = rm -f
+
+# make all == makes executable
+all: m.h $(OBJ)
+	$(CC) $(OBJ) -o $(NAME)
+
+# deletes tmp files & executable
+clean:
+	$(RM) *~ $(NAME)
+
+# deletes object files
+oclean:
+	$(RM) $(OBJ)
+
+# deletes all (tmp files, executable, & obj files)
+fclean: clean oclean
+
+# deletes all & recompiles all source files
+re: oclean all
