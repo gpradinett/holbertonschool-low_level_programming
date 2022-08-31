@@ -27,7 +27,7 @@ int binary_search(int *array, size_t size, int value)
 			if (i != R)
 				printf("%d, ",  array[i]);
 			else
-				printf("%d, \n", array[i]);
+				printf("%d\n", array[i]);
 		}
 		if (value == array[MID])
 			return (MID);
